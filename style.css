@@ -210,9 +210,25 @@ h3{
     position: absolute;
     top: 0;
     left: 0;
+    transition: 0.7s;
 }
 
 .layer:hover{
-    background: rgba(226,0, 0, 0.3);
-    transition: 0.7s;
+    background: rgba(226,0, 0, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
 }
