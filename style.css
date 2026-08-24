@@ -232,4 +232,14 @@ h3{
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
+    transition: 0.5s;
+}
+
+/* facilities */
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
