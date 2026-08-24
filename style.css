@@ -404,3 +404,11 @@ h3{
 .about-col img {
     width: 100%;
 }
+
+.about-col h1 {
+    padding-top: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
