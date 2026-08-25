@@ -1,8 +1,8 @@
 <? php
-$name = $_POST[''];
-$visitor_email = $_POST[''];
-$subject = $_POST[''];
-$message = $_POST[''];
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
 
 ?>
