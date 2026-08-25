@@ -501,3 +501,16 @@ h3{
         font-size: 24px;
     }
 }
+
+
+/* Contact Us */
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
